@@ -41,6 +41,14 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.yellow-text {
+  color: #ffeb38;
+  font-weight: 700;
+}
+
+/********** Header styles **********/
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -79,4 +87,58 @@ body {
   line-height: normal;
   letter-spacing: 0.03em;
   padding: 10px 18px;
+}
+
+/******** Hero section *********/
+
+.hero {
+  padding: 180px 0;
+}
+
+.hero-sup-title {
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 0.03em;
+}
+
+.hero-title {
+  width: 798px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+}
+
+.hero-text {
+  width: 798px;
+  margin: 0 auto;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-align: center;
+}
+
+.hero-btn-list {
+  display: flex;
+  gap: 19px;
+  justify-content: center;
+}
+
+.hero-button {
+  border-radius: 5px;
+  background: #ffffff;
+  color: #0e0e0e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  padding: 12px 0;
+  width: 181px;
+  margin: 0 auto;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #ffeb38;
 }
