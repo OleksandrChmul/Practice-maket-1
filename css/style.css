@@ -32,17 +32,51 @@ button {
 }
 body {
   color: #fff;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+  font-family: Poppins, sans-serif;
   background: #202020;
 }
 
 .container {
-  width: 1158px;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .header-container {
   display: flex;
-  gap: 84px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item-link {
+  padding: 10px 20px;
+  color: #fff;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  display: block;
+}
+
+.header-btn {
+  border-radius: 5px;
+  background: #ffeb38;
+  color: #0e0e0e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  padding: 10px 18px;
 }

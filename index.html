@@ -23,7 +23,7 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <a class="logo-link" href="./index.html">
+        <a class="logo" href="./index.html">
           <svg class="logo-icon" width="50" height="53" aria-label="logo-icon">
             <use href="./image/icons.svg#icon-logo"></use>
           </svg>
@@ -32,30 +32,32 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-list-item">
-              <a class="nav-list-item-link" href=""></a>
+              <a class="nav-list-item-link" href="#hero">Home</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-list-item-link" href=""></a>
+              <a class="nav-list-item-link" href="#about">About Us</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-list-item-link" href=""></a>
+              <a class="nav-list-item-link" href="#services">Services</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-list-item-link" href=""></a>
+              <a class="nav-list-item-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-list-item-link" href=""></a>
+              <a class="nav-list-item-link" href="#testimonials"
+                >Testimonials</a
+              >
             </li>
             <li class="nav-list-item">
-              <a class="nav-list-item-link" href=""></a>
+              <a class="nav-list-item-link" href="#faqs">Faqs</a>
             </li>
           </ul>
         </nav>
-        <button class="contact-us"></button>
+        <button class="header-btn">Contact Us</button>
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="container">
           <p class="sup-title">
             Welcome To <span class="yellow-text">Digital Agency</span>
@@ -69,7 +71,7 @@
           <button class="button">Hire Us</button>
         </div>
       </section>
-      <section class="introduction">
+      <section class="about" id="about">
         <div class="container">
           <p class="sup-title">
             <span class="yellow-text">About</span> CanvasLancer
@@ -87,7 +89,7 @@
           <button class="button">Hire Us</button>
         </div>
       </section>
-      <section class="services">
+      <section class="services" id="services">
         <div class="container">
           <div class="services-part">
             <p class="sup-title">
@@ -137,7 +139,7 @@
           </ul>
         </div>
       </section>
-      <section class="project">
+      <section class="project" id="project">
         <div class="container">
           <p class="sup-title">Our Portfolio</p>
           <h2 class="project-title">Projects We Have Completed</h2>
@@ -168,32 +170,32 @@
           </ul>
         </div>
       </section>
-      <section class="feedback">
+      <section class="portfolio" id="portfolio">
         <div class="container">
           <p class="sup-title">Customer Feedback</p>
-          <h2 class="feedback-title">
+          <h2 class="portfolio-title">
             What Our <span class="yellow-text">Customer</span> Say About Us
           </h2>
-          <ul class="feedback-list">
-            <li class="feedback-list-item">
-              <h3 class="feedback-list-title">Name Here</h3>
-              <p class="feedback-list-text">
+          <ul class="portfolio-list">
+            <li class="portfolio-list-item">
+              <h3 class="portfolio-list-title">Name Here</h3>
+              <p class="portfolio-list-text">
                 Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper
                 tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla
                 donec
               </p>
             </li>
-            <li class="feedback-list-item">
-              <h3 class="feedback-list-title">Name Here</h3>
-              <p class="feedback-list-text">
+            <li class="portfolio-list-item">
+              <h3 class="portfolio-list-title">Name Here</h3>
+              <p class="portfolio-list-text">
                 Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper
                 tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla
                 donec
               </p>
             </li>
-            <li class="feedback-list-item">
-              <h3 class="feedback-list-title">Name Here</h3>
-              <p class="feedback-list-text">
+            <li class="portfolio-list-item">
+              <h3 class="portfolio-list-title">Name Here</h3>
+              <p class="portfolio-list-text">
                 Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper
                 tincidunt odio arcu id praesent vitae. Facilisis vitae fringilla
                 donec
@@ -202,33 +204,33 @@
           </ul>
         </div>
       </section>
-      <section class="contact-us">
+      <section class="testimonials">
         <div class="container">
-          <div class="contact-us-part">
+          <div class="testimonials-part">
             <p class="sup-title">Contact Us</p>
-            <h2 class="contact-us-title">
+            <h2 class="testimonials-title">
               <span class="yellow-text">Contact</span> Us & We Can Work Together
             </h2>
-            <p class="contact-us-text">
+            <p class="testimonials-text">
               Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu
               enim id gravida pulvinar. Tristique consectetur mi curabitur
               congue enim dignissim
             </p>
-            <form class="contact-us-form" name="contact-us-form">
+            <form class="testimonials-form" name="testimonials-form">
               <input
-                class="contact-us-input"
+                class="testimonials-input"
                 type="text"
                 name="user-name"
                 id="user-name"
               />
               <input
-                class="contact-us-input"
+                class="testimonials-input"
                 type="email"
                 name="user-email"
                 id="user-email"
               />
               <textarea
-                class="contact-us-textarea"
+                class="testimonials-textarea"
                 name="user-massege"
                 id="user-massege"
                 placeholder="User Massege"
